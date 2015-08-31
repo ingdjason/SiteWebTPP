@@ -20,6 +20,8 @@ http://www.tooplate.com/view/2029-slide-wall
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
 <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="scr/prefixfree.min.js"></script>
 <!-- / fim dos arquivos utilizados pelo jQuery lightBox plugin -->
 
 <!-- Ativando o jQuery lightBox plugin -->
@@ -66,7 +68,108 @@ $(function() {
 <div id="tooplate_main">
     
     <div class="col_w960">
-        	
+        	<div id="wrapper">
+    <div id="content">
+        <ul id="push" class="profiles cf">
+            <li>
+                <img class="pic" src="images/fruits_ananas.jpg" alt="Ananas" />
+                <ul class="info">
+                    <li><a href="#" title="plus so wikipedia">Ananas</a></li>
+                    <li>l’ananas contient environ 11% d’Hydrates de carbone dont la plupart sont des sucres. </li>
+                </ul>
+            </li>
+            <li>
+                <img class="pic" src="images/fruits_cachiman.jpg" alt="Cachiman" />
+                <ul class="info">
+                    <li><a href="#" title="plus so wikipedia">Cachiman</a></li>
+                    <li>Appelé dans certaines régions « pomme cannelle » ce fruit très délicat qui ne peut se cueillir que mûr,</li>
+                </ul>
+            </li>
+            <li>
+                <img class="pic" src="images/fruits_carambola.jpg" alt="Carambola" />
+                <ul class="info">
+                    <li><a href="#" title="plus so wikipedia">Carambola</a></li>
+                    <li>carambola</li>
+                </ul>
+            </li>
+            <li>
+                <img class="pic" src="images/fruits_citron.jpg" alt="Citron" />
+                <ul class="info">
+                    <li><a href="#" title="plus so wikipedia">Citron</a></li>
+                    <li>Dans la composition du citron, nous trouvons notamment la vitamine C</li>
+                </ul>
+            </li>
+        </ul>
+   </div>
+</div>
+<div id="wrapper">
+    <div id="content">
+        <ul id="push" class="profiles cf">
+            <li>
+                <img class="pic" src="images/fruits_goyave.jpg" alt="Goyave" />
+                <ul class="info">
+                    <li><a href="#" title="plus so wikipedia">Goyave</a></li>
+                    <li>La goyave est l’un des fruits les plus riches en vitamine C, elle est donc fortement recommandée en cas de grippe.</li>
+                </ul>
+            </li>
+            <li>
+                <img class="pic" src="images/fruits_mandarine.jpg" alt="Mandarine" />
+                <ul class="info">
+                   <li><a href="#" title="plus so wikipedia">Mandarine</a></li>
+                    <li>La mandarine est un agrume. C’est le fruit du mandarinier, un arbre de la famille des Rutacées.</li>
+                </ul>
+            </li>
+            <li>
+                <img class="pic" src="images/fruits_mangocarotte.jpg" alt="Mango carotte" />
+                <ul class="info">
+                    <li><a href="#" title="plus so wikipedia">Mango Carotte</a></li>
+                    <li>mango</li>
+                </ul>
+            </li>
+            <li>
+                <img class="pic" src="images/fruits_mangomuscat.jpg" alt="Mango muscat" />
+                <ul class="info">
+                    <li><a href="#" title="plus so wikipedia">M.Muscat</a></li>
+                    <li>sa peau est gris-clair avec des points de couleur abricot, sa viande de couleur d'abricot, elle est juteuse et aromatique.</li>
+                </ul>
+            </li>
+        </ul>
+   </div>
+</div>
+        	<div id="wrapper">
+    <div id="content">
+        <ul id="push" class="profiles cf">
+            <li>
+                <img class="pic" src="images/fruits_noixdecoco.jpg" alt="Noix de Coco" />
+                <ul class="info">
+                    <li><a href="#" title="plus so wikipedia">Noix de Coco</a></li>
+                    <li>La noix de coco se présente comme un gros fruit de forme ovale.</li>
+                </ul>
+            </li>
+            <li>
+                <img class="pic" src="images/fruits_papaye.jpg" alt="Papaye" />
+                <ul class="info">
+                    <li><a href="#" title="plus so wikipedia">Papaye</a></li>
+                    <li>Fruit à la chair juteuse,gros comme le poing et formant une couronne autour de la tête des branches du papayer.</li>
+                </ul>
+            </li>
+            <li>
+                <img class="pic" src="images/fruits_tamarin.jpg" alt="Tamarin" />
+                <ul class="info">
+                    <li><a href="#" title="plus so wikipedia">Tamarin</a></li>
+                    <li>Tamarin</li>
+                </ul>
+            </li>
+            <li>
+                <img class="pic" src="images/fruits_veritab.jpg" alt="Veritab" />
+                <ul class="info">
+                    <li><a href="#" title="plus so wikipedia">Veritab</a></li>
+                    <li>L'arbre à pain est consommé en Haiti, grillé, frit, bouilli seul, en purée.</li>
+                </ul>
+            </li>
+        </ul>
+   </div>
+</div>
 
   </div>
     
@@ -74,11 +177,11 @@ $(function() {
 </div> <!-- end of main -->
 
 <div id="tooplate_footer_wrapper">
-	<div id="tooplate_footer">
-    	
+	<div id="tooplate_footer">   	
         Copyright © 2015 <a href="#">Company Name</a> - Design: <b><a href="http://www.tipeyizanpam.com"><span class="orange">Android</span><span class="green">pam</span></a></b>
-
-    
+   </div> <!-- end of footer wrapper -->
+	<div id="tooplate_footer">
+    <img width="40" height="30"src="images/logo_t.jpg" alt="Ministere tourisme" /><img width="40" height="30" src="images/logo_ma.jpg" alt="Ministere Agriculture" /><img width="40" height="30" src="images/logo_mcc_haiti.jpg" alt="Ministere communication" />
     </div> <!-- end of footer wrapper -->
 </div> <!-- end of footer -->
         
